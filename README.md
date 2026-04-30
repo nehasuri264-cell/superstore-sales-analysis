@@ -42,18 +42,11 @@ To analyze Super Store e-commerce sales data and extract actionable business ins
 ### Power BI
 - Connected live data from Excel source
 - Built interactive dashboard with 6 visuals
-- **DAX Measures** — `Avg Order Value = DIVIDE(SUM(Amount), COUNT(Order ID))`
+- **DAX Measures** — `Avg Order Value = DIVIDE(SUM(Amount)
 - KPI Cards, Bar Chart, Donut Chart, Pie Chart, Line Chart
 - Dynamic slicers for State and Channel filtering
 - Published to Power BI Service for browser-based sharing
 
----
-
-## 📊 Dashboard Preview
-
-![Sales Performance Dashboard](Sales_Performance_Dashboard.png)
-
-🔗 **[View Live Interactive Dashboard](#)** ← replace with your Power BI Service link
 
 ---
 
@@ -61,10 +54,10 @@ To analyze Super Store e-commerce sales data and extract actionable business ins
 
 | File | Description |
 |------|-------------|
-| `SQL file.sql` | 14 SQL queries with comments — from basic to advanced |
+| `SQL file_new.sql` | 14 SQL queries with comments — from basic to advanced |
 | `Excel analysis project.xlsx` | Pivot-based dashboard with business insights |
-| `Sales_Performance_Dashboard.pdf` | Power BI dashboard export |
-| `Sales_Performance_Dashboard.png` | Dashboard screenshot for preview |
+| `powerBI sales dashboard.pbix` | Power BI dashboard |
+| `powerBI sales dashboard.pdf` | Dashboard export as pdf for preview |
 
 ---
 
