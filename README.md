@@ -1,6 +1,6 @@
-# 🛒 Super Store Sales Analysis — Excel + SQL
+# 🛒 Super Store Sales Analysis — Excel + SQL + Power BI
 
-An end-to-end sales analysis project on e-commerce data using **Advanced Excel** (Pivot Tables, Charts, Dashboard) and **MySQL** (Aggregations, Joins, CTEs, Window Functions).
+An end-to-end sales analysis project on e-commerce data using **Advanced Excel** (Pivot Tables, Dashboard), **MySQL** (Aggregations, CTEs, Window Functions), and **Power BI** (Interactive Dashboard, DAX Measures).
 
 ---
 
@@ -39,6 +39,22 @@ To analyze Super Store e-commerce sales data and extract actionable business ins
 - **CTE (WITH clause)** — for readable, modular subqueries
 - Data quality checks — NULL detection, duplicate identification
 
+### Power BI
+- Connected live data from Excel source
+- Built interactive dashboard with 6 visuals
+- **DAX Measures** — `Avg Order Value = DIVIDE(SUM(Amount), COUNT(Order ID))`
+- KPI Cards, Bar Chart, Donut Chart, Pie Chart, Line Chart
+- Dynamic slicers for State and Channel filtering
+- Published to Power BI Service for browser-based sharing
+
+---
+
+## 📊 Dashboard Preview
+
+![Sales Performance Dashboard](Sales_Performance_Dashboard.png)
+
+🔗 **[View Live Interactive Dashboard](#)** ← replace with your Power BI Service link
+
 ---
 
 ## 📂 Files in this Repository
@@ -47,6 +63,8 @@ To analyze Super Store e-commerce sales data and extract actionable business ins
 |------|-------------|
 | `SQL file.sql` | 14 SQL queries with comments — from basic to advanced |
 | `Excel analysis project.xlsx` | Pivot-based dashboard with business insights |
+| `Sales_Performance_Dashboard.pdf` | Power BI dashboard export |
+| `Sales_Performance_Dashboard.png` | Dashboard screenshot for preview |
 
 ---
 
@@ -79,5 +97,7 @@ Target **women aged 26–45 in Maharashtra, Karnataka, and Uttar Pradesh** throu
 
 ## 👩‍💻 Author
 
-**Neha Suri**  
-Aspiring Business Analyst | Excel • SQL • Power BI  
+**Neha Suri**
+Aspiring Business Analyst | Excel • SQL • Power BI • Power Query
+
+
